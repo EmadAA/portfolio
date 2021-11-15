@@ -1,8 +1,26 @@
 html{
     scroll-behavior: smooth;
 }
-
-
+@media (min-width:576px) {
+    .container{
+        max-width:540px; ;
+    }
+}
+@media (min-width:768x) {
+    .container{
+        max-width: 750px; ;
+    }
+}
+@media (min-width:992x) {
+    .container{
+        max-width: 940x; ;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1180px; ;
+    }
+}
 body{
     background-color: #011020;
     width: 1500px;
